@@ -1,0 +1,9 @@
+/* ORIGINAL ISSUE: No styles were applied to the list container.
+   FIXED: Added basic styling for better layout and readability. */
+
+   .list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
