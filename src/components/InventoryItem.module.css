@@ -1,0 +1,28 @@
+/* ORIGINAL ISSUE: Styles were applied inline or not at all.
+   FIXED: Moved styles to CSS modules for better organization and maintainability. */
+
+   .item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* ORIGINAL ISSUE: The "Réclamer" button's hover effect was implemented in JavaScript.
+     FIXED: Implemented the hover effect using CSS for better performance. */
+  .claimButton {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .claimButton:hover,
+  .claimButton:focus {
+    background-color: red;
+    color: white;
+  }
